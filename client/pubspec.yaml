@@ -1,0 +1,54 @@
+name: e2e_chat
+description: End-to-end encrypted chat application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # Networking
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+
+  # Cryptography
+  cryptography: ^2.7.0
+  pointycastle: ^3.7.3
+
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+  # Utils
+  uuid: ^4.2.1
+  intl: ^0.18.1
+  logger: ^2.0.2
+  equatable: ^2.0.5
+  json_annotation: ^4.8.1
+
+  # Device Info
+  device_info_plus: ^9.1.1
+  package_info_plus: ^5.0.1
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
